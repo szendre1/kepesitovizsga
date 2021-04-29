@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>7.5.3</version>
+            <version>7.8.0</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -36,6 +36,16 @@
             <version>5.7.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.0-M1</version>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
 
 </project>
